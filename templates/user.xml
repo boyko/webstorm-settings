@@ -1,0 +1,34 @@
+<templateSet group="user">
+  <template name="//desc" value="describe('$DESCRIPTION$', () =&gt; {&#10;    &#10;})" description="Add describe skeleton" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="//it" value="it('$DESCRIPTION$', () =&gt; {&#10;    &#10;})" description="Add it skeleton" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="//before" value="before(() =&gt; {&#10;    &#10;})&#10;" description="Add before skeleton" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="//beforeEach" value="beforeEach(() =&gt; {&#10;    &#10;})&#10;" description="Add beforeEach skeleton." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="//after" value="after(() =&gt; {&#10;    &#10;})&#10;" description="Add after skeleton." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="//afterEach" value="afterEach(() =&gt; {&#10;    &#10;})&#10;" description="After each skeleton." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

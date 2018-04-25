@@ -1,0 +1,17 @@
+<templateSet group="JavaScript">
+  <template name="arr" value="() =&gt; {}" description="Inserts an arrow function" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="intl" value="import {defineMessages, FormattedMessage} from 'react-intl'&#10;&#10;const msg = defineMessages({&#10;    id: {&#10;        defaultMessge: '',&#10;        id: ''&#10;    }&#10;})" description="React-intl messages block" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imsg" value="id: {&#10;    defaultMessge: '',&#10;    id: ''&#10;}," description="React-intl message block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
